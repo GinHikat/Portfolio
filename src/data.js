@@ -3,8 +3,10 @@ export const personalData = {
   tagline: "ML Engineer / AI Engineer",
   bio: "Data Science undergraduate at University of Science and Technology of Hanoi. Passionate AI enthusiast dedicated to working with multimodal data, RAG, and Agentic workflows to drive practical research and applications.",
   email: "phamduyanh0816@gmail.com",
+  phone: "0778484200",
   github: "https://github.com/GinHikat",
   linkedin: "https://www.linkedin.com/in/duy-anh-pham-414b332a7/",
+  instagram: "https://www.instagram.com/_gin.hi/?hl=en",
   profileImage: "/src/assets/images/profile.jpg"
 };
 
