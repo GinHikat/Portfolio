@@ -1,0 +1,100 @@
+.habits-section {
+  position: relative;
+}
+
+.habits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.habit-card {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+  min-height: 250px;
+}
+
+.habit-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 0%;
+  background: var(--accent-gradient);
+  transition: height var(--transition-normal);
+}
+
+.habit-card:hover {
+  transform: translateX(5px);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.habit-card:hover::before {
+  height: 100%;
+  z-index: 10;
+}
+
+.habit-image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.habit-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.habit-card:hover .habit-image {
+  transform: scale(1.1);
+}
+
+.habit-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(10, 10, 15, 0.95) 0%, rgba(10, 10, 15, 0.4) 100%);
+}
+
+.habit-content-wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 2rem;
+  margin-top: auto;
+  height: 100%;
+}
+
+.habit-icon {
+  font-size: 2.5rem;
+  font-family: var(--font-heading);
+  font-weight: 800;
+  opacity: 0.5;
+  line-height: 1;
+}
+
+.habit-name {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.habit-desc {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
