@@ -87,14 +87,14 @@ export const educationData = [
     degree: "Bachelor of Data Science (English Program)",
     school: "University of Science and Technology of Hanoi (USTH)",
     date: "2023 - 2026 (Expected)",
-    description: "Major in Data Science. Relavant coursework: Machine Learning, Deep Learning, Natural Language Processing, Computer Vision, Data Mining.",
+    description: "Major in Data Science. Relevant coursework: Machine Learning, Deep Learning, Natural Language Processing, Computer Vision, Data Mining.",
     gpa: "3.62 / 4.00"
   },
   {
     degree: "High School Diploma",
     school: "Yen Hoa High School",
     date: "2020 - 2023",
-    description: "Grade: 9.3/10. Top 1 students with highest output score.",
+    description: "Grade: 9.3/10",
     gpa: "9.3 / 10.0"
   }
 ];

@@ -10,7 +10,7 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your computer.
 
 ### Installation
 
-1. **Clone the repository** (if applicable) or navigate to the project directory:
+1. **Clone the repository** and navigate to the project directory:
 
    ```bash
    git clone https://github.com/GinHikat/Portfolio.git
