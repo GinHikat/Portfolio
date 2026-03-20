@@ -29,7 +29,7 @@ const About = ({ personalData }) => {
               <p>GPA</p>
             </div>
             <div className="stat-card glass-panel">
-              <h4 className="gradient-text">1M+</h4>
+              <h4 className="gradient-text">2M+</h4>
               <p>Lines of Code</p>
             </div>
           </div>
