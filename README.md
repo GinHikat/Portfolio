@@ -33,6 +33,8 @@ npm run dev
 
 The application will be available at [http://localhost:5173/](http://localhost:5173/).
 
+Or just simply open the deployed UI on Vercel [https://portfolio-ginhikats-projects.vercel.app/](https://portfolio-ginhikats-projects.vercel.app/).
+
 Enjoy!!
 
 Built with ❤️ by [Pham Duy Anh](https://github.com/GinHikat)
