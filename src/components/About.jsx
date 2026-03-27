@@ -21,15 +21,15 @@ const About = ({ personalData }) => {
               <p>Years Experience</p>
             </div>
             <div className="stat-card glass-panel">
-              <h4 className="gradient-text">10+</h4>
+              <h4 className="gradient-text">5+</h4>
               <p>Projects Completed</p>
             </div>
             <div className="stat-card glass-panel">
-              <h4 className="gradient-text">3.6+</h4>
+              <h4 className="gradient-text">3.7+</h4>
               <p>GPA</p>
             </div>
             <div className="stat-card glass-panel">
-              <h4 className="gradient-text">2M+</h4>
+              <h4 className="gradient-text">3M+</h4>
               <p>Lines of Code</p>
             </div>
           </div>

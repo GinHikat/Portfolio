@@ -38,7 +38,7 @@ export const habitsData = [
 
 export const experienceData = [
   {
-    role: "Data Analyst (Intern)",
+    role: "Data Analyst/ AI Engineer (Intern)",
     company: "ActiveFence / ALICE",
     date: "Jun 2025 - Dec 2025",
     description: "Conducted research on LLM performance in RAG and Agentic workflows. Designed large-scale data pipelines supporting AI engineering.",
@@ -88,7 +88,7 @@ export const educationData = [
     school: "University of Science and Technology of Hanoi (USTH)",
     date: "2023 - 2026 (Expected)",
     description: "Major in Data Science. Relevant coursework: Machine Learning, Deep Learning, Natural Language Processing, Computer Vision, Data Mining.",
-    gpa: "3.65 / 4.00"
+    gpa: "3.7 / 4.00"
   },
   {
     degree: "High School Diploma",
@@ -103,13 +103,13 @@ export const projectsData = [
   {
     title: "Legal Document Retrieval Optimization with Document Graph Representation",
     description: "Developed a hybrid retrieval system for Vietnamese tax law using Graph Representation and NLP, achieving 10% performance gain over traditional vector searches.",
-    tech: ["Graph", "FastAPI", "React", "Neo4J", "NLP"],
+    tech: ["Graph Representation", "GraphRAG", "Neo4J", "NLP"],
     link: "https://github.com/GinHikat/Document-Graph-Representation"
   },
   {
-    title: "Comprehensive Decoding of Transaction Frauds",
-    description: "Benchmarked time-series models (XGBoost, Isolation Forest) and integrated a custom Explainable AI (XAI) evaluation framework for fraud detection.",
-    tech: ["Python", "Multi-model Approaches", "XAI", "Data Pipeline"],
+    title: "Patient EHR Graph Representation for Multi-task Learning",
+    description: "Batch-processed and integrated over 10 heterogeneous data sources centered on MIMIC-IV patient EHR data to build a unified graph representation of patient records, modeling hospital admissions as temporal sequences that capture diagnoses, treatments, and procedures, while enriching the graph with external biomedical knowledge bases to incorporate drug–disease–phenotype interactions for downstream tasks.",
+    tech: ["Knowledge Graph", "Multi-model Approaches", "NLP", "Time Series", "Big Data Processing"],
     link: "https://github.com/GinHikat/Transactional-Fraud-Detection-with-Explainable-AI"
   },
   {
@@ -117,5 +117,11 @@ export const projectsData = [
     description: "Analyzed 3M+ REST API requests and deployed a FastAPI web dashboard for system scaling simulation and traffic forecasting.",
     tech: ["FastAPI", "Time-series Modeling", "Time Forecasting", 'System Simulation'],
     link: "https://github.com/GinHikat/FomoKaguya2026"
+  }, 
+  {
+    title: "Vid2Manga: Real Video to Manga Transcription",
+    description: "Application to catch real life short videos with speech and transcribe them into manga-style text with text bubbles",
+    tech: ["Speech2Text", "Speech Diarization", "Manga Page Generation", 'Text Typesetting'],
+    link: "https://github.com/GinHikat/Vid2Manga"
   }
 ];
