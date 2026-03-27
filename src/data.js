@@ -110,7 +110,7 @@ export const projectsData = [
     title: "Patient EHR Graph Representation for Multi-task Learning",
     description: "Batch-processed and integrated over 10 heterogeneous data sources centered on MIMIC-IV patient EHR data to build a unified graph representation of patient records, modeling hospital admissions as temporal sequences that capture diagnoses, treatments, and procedures, while enriching the graph with external biomedical knowledge bases to incorporate drug–disease–phenotype interactions for downstream tasks.",
     tech: ["Knowledge Graph", "Multi-model Approaches", "NLP", "Time Series", "Big Data Processing"],
-    link: "https://github.com/GinHikat/Transactional-Fraud-Detection-with-Explainable-AI"
+    link: "https://github.com/GinHikat/Patient-EHR-Graph-Representation-for-Multi-task-Learning"
   },
   {
     title: "Server Request Forecasting for Auto Scaling",
