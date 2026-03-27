@@ -79,6 +79,14 @@ export const hallOfFameData = [
       "/images/mun3.jpg",
       "/images/mun4.jpg"
     ]
+  },
+  {
+    name: "Miss Peregrine's Home for Peculiar Children",
+    role: "Book Series",
+    description: "A book series that have significantly influenced my perspective and imagination.",
+    image: "images/books.jpg",
+    link: null,
+    galleryImages: []
   }
 ];
 

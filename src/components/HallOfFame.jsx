@@ -3,6 +3,7 @@ import "../css/HallOfFame.css";
 
 const HallOfFame = ({ hallOfFameData }) => {
   const [selectedImage, setSelectedImage] = useState(null);
+
   return (
     <section id="hall-of-fame" className="hall-of-fame-section section-dark">
       <div className="container">
@@ -18,7 +19,23 @@ const HallOfFame = ({ hallOfFameData }) => {
                 {idol.image ? (
                   <img src={idol.image} alt={idol.name} className="hof-image" />
                 ) : (
-                  <div className="hof-image-placeholder"></div>
+                  <div className="hof-image-placeholder">
+                    {idol.name.toLowerCase().includes("books") && (
+                      <svg
+                        width="80"
+                        height="80"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="rgba(255, 255, 255, 0.2)"
+                        strokeWidth="1"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                      </svg>
+                    )}
+                  </div>
                 )}
                 <div className="hof-overlay"></div>
               </div>
