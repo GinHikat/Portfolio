@@ -1,7 +1,7 @@
 export const personalData = {
   name: "Pham Duy Anh",
   tagline: "ML Engineer / AI Engineer",
-  bio: "Data Science undergraduate at University of Science and Technology of Hanoi. Passionate AI enthusiast dedicated to working with multimodal data, RAG, and Agentic workflows to drive practical research and applications.",
+  bio: "Data Science undergraduate at University of Science and Technology of Hanoi. Passionate AI enthusiast dedicated to working with multimodal data, AI Systems, and Agentic workflows to drive practical research and applications.",
   email: "phamduyanh0816@gmail.com",
   phone: "0778484200",
   github: "https://github.com/GinHikat",
