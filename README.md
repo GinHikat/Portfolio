@@ -1,4 +1,4 @@
-# My Portfolio
+# Pham Duy Anh's Web Portfolio
 
 ## 🚀 Getting Started
 
@@ -6,7 +6,7 @@ Follow these steps to get the project running locally on your machine.
 
 ### Prerequisites
 
-Ensure you have [Node.js](https://nodejs.org/) installed on your computer.
+Have [Node.js](https://nodejs.org/) installed on your computer.
 
 ### Installation
 
@@ -33,7 +33,7 @@ npm run dev
 
 The application will be available at [http://localhost:5173/](http://localhost:5173/).
 
-Or just simply open the deployed UI on Vercel [https://portfolio-ginhikats-projects.vercel.app/](https://portfolio-ginhikats-projects.vercel.app/).
+Or just simply open the UI on the Web [https://portfolio-ginhikats-projects.vercel.app/](https://portfolio-ginhikats-projects.vercel.app/).
 
 Enjoy!!
 
