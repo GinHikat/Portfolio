@@ -83,7 +83,7 @@ export const hallOfFameData = [
   {
     name: "Miss Peregrine's Home for Peculiar Children",
     role: "Book Series",
-    description: "A book series that have significantly influenced my perspective and imagination.",
+    description: "A book series that has significantly influenced my perspective and imagination. Also an effective stress reliever.",
     image: "images/books.jpg",
     link: null,
     galleryImages: []
