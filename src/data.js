@@ -14,12 +14,9 @@ export const skillsDict = {
   "Programming": ["Python", "R", "Cypher", "TypeScript", "JavaScript", "C", "Java"],
   "Frameworks & AI": ["FastAPI", "React", "LLMs", "RAG", "Agentic Workflows", "XAI"],
   "Technologies": ["Git", "Docker", "AWS", "Databricks", "Neo4J", "MySQL", "LaTeX"],
-  "Soft Skills": ["Data Analytics", "Leadership", "Problem Solving", "Mentoring"]
+  "Soft Skills": ["Communication", "Leadership", "Problem Solving", "Mentoring"]
 };
 
-export const toolsDict = [
-  "Antigravity", "Jupyter", "Databricks", "Docker", "AWS"
-];
 
 export const habitsData = [
   { 
