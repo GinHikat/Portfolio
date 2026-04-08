@@ -19,17 +19,7 @@ const Skills = ({ skillsDict, toolsDict }) => {
               </div>
             </div>
           ))}
-
-          <div className="skill-category tools-category glass-panel">
-            <h3 className="category-title">Favorite Tools</h3>
-            <div className="skill-tags">
-              {toolsDict.map((tool) => (
-                <span key={tool} className="pill-tag tool-tag">
-                  {tool}
-                </span>
-              ))}
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>
