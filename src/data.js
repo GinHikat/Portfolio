@@ -11,7 +11,7 @@ export const personalData = {
 };
 
 export const skillsDict = {
-  "Programming": ["Python", "R", "Cypher", "TypeScript", "JavaScript", "C", "Java"],
+  "Programming": ["Python", "R", "Cypher", "TypeScript", "JavaScript", "C", "Java", 'SQL'],
   "Frameworks & AI": ["FastAPI", "React", "LLMs", "RAG", "Agentic Workflows", "XAI"],
   "Technologies": ["Git", "Docker", "AWS", "Databricks", "Neo4J", "MySQL", "LaTeX"],
   "Soft Skills": ["Communication", "Leadership", "Problem Solving", "Mentoring"]

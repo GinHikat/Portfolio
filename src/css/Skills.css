@@ -47,16 +47,6 @@
   border-color: rgba(99, 102, 241, 0.2);
 }
 
-.tool-tag {
-  background: rgba(16, 185, 129, 0.1);
-  color: #10b981;
-  border-color: rgba(16, 185, 129, 0.2);
-}
-
-.tools-category:hover {
-  border-color: rgba(16, 185, 129, 0.3);
-}
-
 @media (max-width: 768px) {
   .skills-container {
     grid-template-columns: 1fr;

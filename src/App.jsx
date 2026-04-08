@@ -3,7 +3,6 @@ import {
   experienceData,
   projectsData,
   skillsDict,
-  toolsDict,
   habitsData,
   hallOfFameData,
   educationData,
@@ -34,7 +33,7 @@ function App() {
         <About personalData={personalData} />
         <Education educationData={educationData} />
         <Experience experienceData={experienceData} />
-        <Skills skillsDict={skillsDict} toolsDict={toolsDict} />
+        <Skills skillsDict={skillsDict} />
         <Habits habitsData={habitsData} />
         <Projects projectsData={projectsData} />
         <HallOfFame hallOfFameData={hallOfFameData} />

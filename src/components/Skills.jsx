@@ -1,6 +1,6 @@
 import "../css/Skills.css";
 
-const Skills = ({ skillsDict, toolsDict }) => {
+const Skills = ({ skillsDict }) => {
   return (
     <section id="skills" className="skills-section">
       <div className="container">
